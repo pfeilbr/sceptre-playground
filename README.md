@@ -3,7 +3,7 @@
 learn [sceptre](https://sceptre.cloudreach.com/), a tool to drive cloudformation
 
 * [StackGroup Config](https://sceptre.cloudreach.com/latest/docs/stack_group_config.html) - [`config/dev/config.yaml`](my-sceptre-project/config/dev/config.yaml) - project_code, region, profile, etc.
-* [Stack Config](https://sceptre.cloudreach.com/latest/docs/stack_config.html) - [`config/dev/template.yaml`](my-sceptre-project/config/dev/template.yaml) - config for specific stack.  e.g. stack params, template_path, dependencies, etc.
+* [Stack Config](https://sceptre.cloudreach.com/latest/docs/stack_config.html) - [`config/dev/template.yaml`](my-sceptre-project/config/dev/template.yaml) - config for specific stack.  e.g. stack params, template_path, dependencies, hooks, etc.
 * Stack - [`templates/template.yaml`](my-sceptre-project/templates/template.yaml)
 
 ## Demo
@@ -16,6 +16,8 @@ pipx install sceptre
 
 # create new project
 sceptre new project my-sceptre-project
+
+cd my-sceptre-project
 
 # create stack
 sceptre create dev/template.yaml

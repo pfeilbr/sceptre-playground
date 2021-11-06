@@ -1,3 +1,11 @@
 template_path: template.yaml
 parameters:
   BucketName: my-sceptre-project-dev-01
+
+hooks:
+    before_create:
+        - !cmd "echo before_create..."
+    after_create:
+        - !cmd "echo after_create"
+    after_update:
+        - !cmd "echo after_update"
