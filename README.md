@@ -35,4 +35,5 @@ sceptre delete dev/template.yaml
 ## Resources
 
 * [sceptre](https://sceptre.cloudreach.com/)
+* [GitHub - Sceptre/sceptre: Build better AWS infrastructure](https://github.com/Sceptre/sceptre)
 * [Introduction to Sceptre: An AWS Cloudformation Orchestration Tool](https://engineering.carsguide.com.au/introduction-to-sceptre-an-aws-cloudformation-orchestration-tool-4b8453c0ae81)
