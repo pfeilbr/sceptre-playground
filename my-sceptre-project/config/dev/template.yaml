@@ -1,0 +1,3 @@
+template_path: template.yaml
+parameters:
+  BucketName: my-sceptre-project-dev-01
