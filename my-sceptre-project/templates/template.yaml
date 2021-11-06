@@ -6,6 +6,7 @@ Resources:
     Type: 'AWS::S3::Bucket'
     Properties:
       BucketName: !Sub "${BucketName}"
+      AccessControl: Private
 Outputs:
   BucketArn:
     Value: !GetAtt Bucket.Arn
